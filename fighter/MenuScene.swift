@@ -22,14 +22,14 @@ class MenuScene :SKScene{
         self.addChild(backgroundImage)
         
         let logoText = SKLabelNode(fontNamed: "AvenirNext-Heavy")
-        logoText.text = "雯雯的企鹅" //雯雯的企鹅
+        logoText.text = "Adventure of Pororo" //雯雯的企鹅
         logoText.position = CGPoint(x: 0, y: 100)
         logoText.fontSize = 60
         self.addChild(logoText)
         
         
         let logoTextBottom = SKLabelNode(fontNamed: "AvenirNext-Heavy")
-        logoTextBottom.text = "飞出南极大冒险" //飞出南极大冒险
+        logoTextBottom.text = "Fly to Antarctic" //飞出南极大冒险
         logoTextBottom.position = CGPoint(x: 0, y: 50)
         logoTextBottom.fontSize = 40
         self.addChild(logoTextBottom)
@@ -42,7 +42,7 @@ class MenuScene :SKScene{
         self.addChild(startButton)
         
         let startText = SKLabelNode(fontNamed: "AvenirNext-HeavyItalic")
-        startText.text = "开始游戏"//开始游戏
+        startText.text = "START"//开始游戏
         startText.verticalAlignmentMode = .center
         startText.position = CGPoint(x: 0, y: 2)
         startText.fontSize = 40
